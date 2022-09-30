@@ -1,5 +1,6 @@
 # MechaCar_Statistical_Analysis
-## Linear Regression to Predict MPG
+## Linear Regression to Predict MPG<br/>
+
 ![Multiple_Linear_Regression](./images/multiple_linear_regression_mpg.png)
 <br/><br/>
 
@@ -14,7 +15,7 @@
 
 * This regression analysis does predict mpg of MechaCar prototypes effectively since it shows the independent variables that influence the mpg significantly. Also the Multiple R-squared value is 0.7149 which is greater than 0.7, indicating a strong correlation. <br/><br/>
 
-## Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils<br/>
 * Summary Statistics Table for all Manufacturing Lots:<br/><br/>
 ![Suspension_Stats](./images/suspension_summary_stats.png)
 <br/><br/>
@@ -30,7 +31,7 @@
 <br/><br/>
 * For all manufacturing lots, the variance does not exceed the 100 psi limit as shown by the summary statistics table for all manufacturing lots.<br/><br/>
 
-## T-Tests on Suspension Coils
+## T-Tests on Suspension Coils<br/>
 Here, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.<br/><br/>
 
 * The null hypothesis for this t-test is that the mean of the samples is the same as the population mean i.e. Ho: μ = 1500 psi.
@@ -62,3 +63,37 @@ Here, t-tests were performed to determine if all manufacturing lots and each lot
 ![PSI_T-Test_Lot_3](./images/psi_t_test_lot3.png)<br/><br/>
 
 * The p-value for suspension coil psi for manufacturing lot 1 is 0.04168 which is < the significance level. Therefore we can reject the null hypothesis that the mean of the samples is the same as the population mean i.e. the sample mean is not equal to the population mean. <br/><br/> 
+
+## Study Design: MechaCar vs Competition<br/>
+
+* What metric/metrics can be tested? <br/>
+
+    1) The safety ratings for each vehicle type can be compared.<br/>
+
+    2) The average mpg for the competition's vehicles can be compared to that of MechaCar's. <br/>
+
+**The following information applies to numbers 1 and 2 above, respectively.**
+
+* Null and alternate hypothesis for each metric to be tested: <br/>
+
+    1)  * Null hypothesis: There is no difference in frequency distribution between the safety ratings of the competition and MechaCar. <br/>
+        * Alternate hypothesis: There is a difference in frequency distribution between the safety ratings of the competition and MechaCar. <br/><br/>
+    2)  * Null hypothesis: There is no statistical difference between the two observed sample means of Mechacar's mpg and the competition's.<br/>
+        * Alternate hypothesis: There is a statistical difference between the two observed sample means of Mechacar's mpg and the competition's.<br/>
+
+* What statistical test would you use to test the hypothesis?<br/>
+
+    1) A chi-squared tests can be performed to compare frequency distributions since the data being analyzed is categorical.<br/>
+
+    2) A two-sample t-test can be performed to compare means of two samples from separate populations (unpaired) since the input data is numerical and continuous. <br/>
+
+* What data is needed to run the statistical test? <br/>
+
+    1)  * Each subject within a group contributes to only one frequency, i.e. sum of all frequencies equals the total number of subjects in a dataset. <br/>
+        * Each unique value has an equal probability of being observed.<br/><br/>
+
+    2)  * The input data is numerical and continuous.<br/> 
+        * Each sample data was selected randomly from the population data. <br/>
+        * The input data is considered to be normally distributed. Each sample size is reasonably large.<br/>
+        * The sample data distribution should be similar to its population data distribution. <br/>
+        * The variance of the input data should be very similar.<br/>
