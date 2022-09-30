@@ -74,7 +74,7 @@ Here, t-tests were performed to determine if all manufacturing lots and each lot
 
     2) The average mpg for the competition's vehicles can be compared to that of MechaCar's. <br/>
 
-**The following information applies to numbers 1 and 2 above, respectively.**
+**The following information applies to i and ii above, respectively.**
 
 * Null and alternate hypothesis for each metric to be tested: <br/>
 
