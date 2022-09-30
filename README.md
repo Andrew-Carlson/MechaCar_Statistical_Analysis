@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
-## Linear Regression to Predict MPG<br/>
+## Purpose of analysis:
+The following analysis provides a statistical analysis that addresses business questions for a car comppany's prototype vehicle called the MechaCar using **R programming language** and its **tidyverse** library that contains the **dplyr** package. 
+## Linear Regression to Predict Fuel Economy (MPG)<br/>
 
 ![Multiple_Linear_Regression](./images/multiple_linear_regression_mpg.png)
 <br/><br/>
